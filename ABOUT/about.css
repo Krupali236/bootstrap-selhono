@@ -1,0 +1,122 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link {
+    color: #292f36;
+}
+.active {
+    color: #c76904 !important;
+}
+.btn-putty {
+    background: #cda274;
+    color: white;
+}
+.btn-putty:hover {
+    background: #ca8f4f;
+    color: white;
+}
+.fs-1 {
+    font-size: 65px !important;
+}
+.card {
+    border: transparent;
+}
+.fs-2 {
+    font-size: 55px !important;
+}
+.ff-emoji {
+    font-family: emoji !important;
+}
+.bg-putty {
+    background: #d8a876;
+}
+.text-secondary {
+    color: #4d5053 !important;
+}
+.text-darks {
+    color: #292f36;
+}
+
+.text-putty {
+    color: #cda274;
+}
+.border-end,
+.border-start {
+    border-right: 2px solid #292f36 !important;
+    border-left: 2px solid #292f36 !important;
+}
+.bg-offwhite {
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 50px;
+    padding: 15px;
+}
+.bg-active {
+    background: #f4f0ec;
+}
+
+.list-group-item {
+    border: transparent;
+    /* padding: 0%; */
+}
+.form-control {
+    border-radius: 0%;
+    border-bottom: 1px solid #4d5053 !important;
+}
+.nav-link:hover {
+    border-bottom: 2px solid #c76904;
+    color: #c76904;
+}
+
+/* Animation */
+.myanimation-container {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.myanimation-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.myanimation-text {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.myanimation-container:hover .myanimation-image {
+    opacity: 0.8;
+}
+
+.myanimation-container:hover .myanimation-text {
+    opacity: 1;
+}
+.card-animation {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.card-animation:hover {
+    transform: scale(0.9);
+}
+.card-shadow-effect:hover {
+    box-shadow:
+        rgba(0, 0, 0, 0.199) -10px 10px,
+        rgba(64, 41, 2, 0.19) -20px 20px;
+}
+.hover-bg-effect:hover path{
+    cursor: pointer;  
+    fill:#936d45;
+}
+.hover-bg-effect{
+    cursor: pointer;
+}
+.hover-text-effect{
+    cursor: pointer;
+}
+.hover-text-effect:hover{
+    color: #c76904 !important;
+}

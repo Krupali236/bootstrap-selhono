@@ -1,0 +1,395 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link {
+    color: #292f36;
+}
+.active {
+    color: #c76904 !important;
+}
+.btn-putty {
+    background: #cda274;
+    color: white;
+}
+.btn-putty:hover {
+    background: #ca8f4f;
+    color: white;
+}
+.fs-1 {
+    font-size: 65px !important;
+}
+.card {
+    border: transparent;
+}
+.fs-2 {
+    font-size: 55px !important;
+}
+.ff-emoji {
+    font-family: emoji !important;
+}
+.bg-putty {
+    background: #d8a876;
+}
+.text-secondary {
+    color: #4d5053 !important;
+}
+.text-darks {
+    color: #292f36;
+}
+.btn-outline-putty {
+    border: 1px solid #cda274 !important;
+}
+.btn-group button:hover {
+    background-color: #cda274;
+    color: white;
+}
+.btn-group .active {
+    background-color: #cda274;
+    color: white !important;
+}
+.text-putty {
+    color: #cda274;
+}
+.border-end {
+    border-right: 1px solid #cda274 !important;
+}
+.bg-offwhite {
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.bg-active {
+    background: #f4f0ec;
+}
+.pagination .page-item .active {
+    background: #f4f0ec !important;
+    border-color: #f4f0ec !important;
+    color: black !important;
+}
+.pagination .page-link:hover {
+    background: #cda274 !important;
+    border-color: #f4f0ec !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.mysmallclass .fs-1 {
+    font-size: 70px !important;
+}
+.list-group-item {
+    border: transparent;
+}
+.nav-link:hover {
+    border-bottom: 2px solid #c76904;
+    color: #c76904;
+}
+.card-slide-effect img{
+    height: 89% !important;
+}
+@media screen and (max-width: 576px) {
+    .mysmallclass .fs-1 {
+        font-size: 33px !important;
+        padding: 0 !important;
+        margin-bottom: 20%;
+    }
+    .card-slide-effect img{
+        height: 75% !important;
+    }
+    .card-overlay2 {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 0%;
+        height: 75% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .card-overlay1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 0%;
+        height: 75% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .card-slide-effect:hover .card-overlay2 {
+        opacity: 1;
+        height: 75% !important;
+        width: 100%;
+        left:0%;
+        border:2px solid #c76904;
+    }
+    .card-slide-effect:hover .card-overlay1 {
+        opacity: 1;
+        height: 75% !important;
+        width: 100%;
+        border:2px solid #c76904;
+    }
+}
+@media screen and (max-width: 415px) {
+    .mysmallclass .fs-1 {
+        font-size: 33px !important;
+        padding: 0 !important;
+        margin-bottom: 20%;
+    }
+    .card-overlay2 {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 0%;
+        height: 80% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .card-overlay1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 0%;
+        height: 80% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .card-slide-effect:hover .card-overlay2 {
+        opacity: 1;
+        height: 80% !important;
+        width: 100%;
+        left:0%;
+        border:2px solid #c76904;
+    }
+    .card-slide-effect:hover .card-overlay1 {
+        opacity: 1;
+        height: 80% !important;
+        width: 100%;
+        border:2px solid #c76904;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mysmallclass .fs-1 {
+        font-size: 33px !important;
+        padding: 0 !important;
+        margin-bottom: 20%;
+    }
+    .card-slide-effect img{
+        height: 74% !important;
+    }
+    .card-overlay2 {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 0%;
+        height: 74% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        /* padding: 20px; */
+        text-align: center;
+    }
+    .card-overlay1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 0%;
+        height: 74% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        /* padding: 20px; */
+        text-align: center;
+    }
+    .card-slide-effect:hover .card-overlay2 {
+        opacity: 1;
+        height: 74% !important;
+        width: 100%;
+        left:0%;
+        border:2px solid #c76904;
+    }
+    .card-slide-effect:hover .card-overlay1 {
+        opacity: 1;
+        height: 74% !important;
+        width: 100%;
+        border:2px solid #c76904;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .mysmallclass .fs-1 {
+        font-size: 33px !important;
+        padding: 0 !important;
+        margin-bottom: 20%;
+    }
+    .card-slide-effect img{
+        height: 74% !important;
+    }
+    .card-overlay2 {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 0%;
+        height: 74% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        /* padding: 20px; */
+        text-align: center;
+    }
+    .card-overlay1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 0%;
+        height: 74% !important;    
+        transition: 0.5s ease;
+        opacity: 0;
+        color: white;
+        font-size: 20px;
+        /* padding: 20px; */
+        text-align: center;
+    }
+    .card-slide-effect:hover .card-overlay2 {
+        opacity: 1;
+        height: 74% !important;
+        width: 100%;
+        left:0%;
+        border:2px solid #c76904;
+    }
+    .card-slide-effect:hover .card-overlay1 {
+        opacity: 1;
+        height: 74% !important;
+        width: 100%;
+        border:2px solid #c76904;
+    }
+}
+/* Animation */
+.myanimation-container {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.myanimation-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.myanimation-text {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+}
+.myanimation-container:hover .myanimation-image {
+    opacity: 0.6;
+}
+
+.myanimation-container:hover .myanimation-text {
+    opacity: 1;
+}
+.card-img-top{
+    position: relative;
+}
+.card-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 0%;
+    height: 89%;        
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    text-align: center;
+}
+.card-overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 0%;
+    height: 89%;    
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    text-align: center;
+}
+.card-slide-effect:hover .card-overlay2 {
+    opacity: 1;
+    height: 89%;
+    width: 100%;
+    left:0%;
+    border:2px solid #c76904;
+}
+.card-slide-effect:hover .card-overlay1 {
+    opacity: 1;
+    height: 89%;
+    width: 100%;
+    border:2px solid #c76904;
+}
+.card-slide-effect svg {
+   cursor: pointer;
+   transition: 0.5s ease;
+}
+.card-slide-effect svg:hover {
+    margin-right: 20% !important;
+}
+.hover-bg-effect:hover path{
+    cursor: pointer;  
+    fill:#936d45;
+}
+.hover-bg-effect{
+    cursor: pointer;
+}
+.hover-text-effect{
+    cursor: pointer;
+}
+.hover-text-effect:hover{
+    color: #c76904 !important;
+}

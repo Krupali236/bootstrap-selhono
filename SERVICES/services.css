@@ -1,0 +1,154 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link {
+    color: #292f36;
+}
+.active {
+    color: #c76904 !important;
+}
+.btn-putty {
+    background: #cda274;
+    color: white;
+}
+.btn-putty:hover {
+    background: #ca8f4f;
+    color: white;
+}
+.fs-1 {
+    font-size: 65px !important;
+}
+.card {
+    border: transparent;
+}
+.fs-2 {
+    font-size: 55px !important;
+}
+.ff-emoji {
+    font-family: emoji !important;
+}
+.bg-putty {
+    background: #d8a876;
+}
+.text-secondary {
+    color: #4d5053 !important;
+}
+.text-darks {
+    color: #292f36;
+}
+
+.text-putty {
+    color: #cda274;
+}
+.border-end,
+.border-start {
+    border-right: 2px solid #292f36 !important;
+    border-left: 2px solid #292f36 !important;
+}
+.bg-offwhite {
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 50px;
+    padding: 15px;
+}
+.bg-active {
+    background: #f4f0ec;
+}
+
+.list-group-item {
+    border: transparent;
+    /* padding: 0%; */
+}
+.nav-link:hover {
+    border-bottom: 2px solid #c76904;
+    color: #c76904;
+}
+@media screen and (max-width: 576px) {
+    .mysmallclass .fs-1 {
+        font-size: 33px !important;
+        padding: 0 !important;
+        margin-bottom: 20%;
+    }
+    .rowreverese {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mysmallclass .fs-2 {
+        font-size: 20px !important;
+        margin-bottom: 0%;
+    }
+    .mysmallclass p {
+        font-size: 14px !important;
+        margin-bottom: 0;
+    }
+    .mysmallclass button {
+        font-size: 10px !important;
+    }
+    .mysmallclass button svg {
+        font-size: 10px !important;
+        width: 15px !important;
+        height: 14px !important;
+    }
+}
+/* Animation */
+.myanimation-container {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.myanimation-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.myanimation-text {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+}
+.myanimation-container:hover .myanimation-image {
+    opacity: 0.6;
+}
+
+.myanimation-container:hover .myanimation-text {
+    opacity: 1;
+}
+.border-effect .col{
+    cursor: pointer;
+}
+.border-effect .col:hover{
+    /* border:1px solid #292f36;
+    border-radius: 50px;
+    padding: 5px; */
+    background-color:#d8a876;
+}
+.img-effect2 ,.img-effect1{
+    cursor: pointer;
+}
+.img-effect1:hover{
+    opacity: 0.7;
+    border: 3px solid #c76904;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 80%;
+}
+.img-effect2:hover{
+    opacity: 0.7;
+    border: 3px solid #c76904;
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 80%;
+}
+.hover-bg-effect:hover path{
+    cursor: pointer;  
+    fill:#936d45;
+}
+.hover-bg-effect{
+    cursor: pointer;
+}
+.hover-text-effect{
+    cursor: pointer;
+}
+.hover-text-effect:hover{
+    color: #c76904 !important;
+}
